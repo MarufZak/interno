@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    .intro__title {
+        padding-right: 30%;
+    }
+    .header__burger {
+        display: inline-block;
+    }
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.893);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .header__nav.active {
+        left: 0;
+    }
+    .header__list {
+        flex-direction: column;
+    }
+    .header__link {
+        color: var(--white);
+    }
+}
+@media (max-width: 524px) {
+    .intro__title {
+        padding-right: 0;
+    }
+    .intro__content {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen {
+    .intro__link:hover span{
+        display: inline;
+    }
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Joto-B';
+    src: url('../fonts/jost/Jost-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Joto-R';
+    src: url('../fonts/jost/Jost-Regular.ttf');
+    font-weight: 400;
+}
